@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LayoutAndLife</string>
+    <string name="string1">첫번째 문자열\n3줄까지\n출력가능\n출력불가능</string>
+    <string name="string2">두번째 문자열</string>
+</resources>
