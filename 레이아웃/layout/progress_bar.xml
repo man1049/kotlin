@@ -7,6 +7,7 @@
 
 
     <LinearLayout
+        android:id="@+id/ProgressBarLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -29,5 +30,7 @@
             android:gravity="center"
             android:text="Downloading..."
             tools:text="Downloading..." />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

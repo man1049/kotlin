@@ -5,29 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <LinearLayout
+    <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Downloading..."
-            tools:text="Downloading..." />
-    </LinearLayout>
+            android:layout_marginBottom="20dp"
+            android:text="김백산" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소백산" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="태백산" />
+
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
